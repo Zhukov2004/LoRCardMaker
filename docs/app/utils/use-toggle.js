@@ -1,0 +1,1 @@
+import{useCallback as t,useState as r}from"/cdn/react";export default function n(n){const[o,c]=r(n),e=t((()=>{c(!o)}),[o]);return[o,e,c]}

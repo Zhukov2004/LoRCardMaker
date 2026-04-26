@@ -1,0 +1,35 @@
+{
+  "name": "lor-card-maker",
+  "version": "0.0.0",
+  "description": "A mobile friendly LoR card maker",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "node serve-test",
+    "start": "node serve",
+    "debug": "node serve --proxymity ../proxymity"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muggy8/lor-card-maker.git"
+  },
+  "author": "Muggy Ate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muggy8/lor-card-maker/issues"
+  },
+  "homepage": "https://github.com/muggy8/lor-card-maker#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-async-replace": "^1.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jsonminify": "^1.1.0",
+    "gulp-terser": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "open": "^8.4.0",
+    "terser": "^5.15.1",
+    "yargs": "^17.3.1"
+  }
+}

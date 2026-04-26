@@ -1,0 +1,1 @@
+import{useCallback as t,useRef as n}from"/cdn/react";export default function r(r,c,o){const e=n(r);e.current=r;const u=n();return t((function(...t){clearTimeout(u.current),u.current=setTimeout((function(){Function.prototype.apply.call(e.current,void 0,t)}),c)}),o)}

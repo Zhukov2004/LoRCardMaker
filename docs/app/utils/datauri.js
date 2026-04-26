@@ -1,0 +1,1 @@
+const e={};export default async function t(t){return e[t]?e[t]:e[t]=fetch(t).then((e=>e.blob())).then((e=>{const t=new FileReader;return new Promise((n=>{t.addEventListener("load",(()=>{n(t.result)}),!1),t.readAsDataURL(e)}))}))}

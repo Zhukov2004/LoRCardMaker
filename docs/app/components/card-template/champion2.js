@@ -1,0 +1,1 @@
+import{UnitRendererComponent as e}from"/Components/card-template/unit.js";import t from"/Utils/elements.js";export default t(class extends e{cardFrame="/Assets/champion/frame2.png";getRegionFrameUrl(){let e=this.props.faction.length;return e>3&&(e=3),`/Assets/champion/lvl2regionbox${e}.png`}});
